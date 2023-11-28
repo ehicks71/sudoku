@@ -5,9 +5,8 @@
   "author": "Amith Raravi <amith.raravi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^15.14.9",
-    "@types/react": "^18.0.24",
-    "gh-pages": "^3.2.3",
+    "@simonsmith/cypress-image-snapshot": "^9.0.1",
+    "cypress": "^13.6.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,7 +15,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
